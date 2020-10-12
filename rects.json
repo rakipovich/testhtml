@@ -1,0 +1,119 @@
+{
+    "separation": "horizontal",
+    "parts": [
+        "0.33"
+    ],
+    "children": [
+        {
+            "separation": "vertical",
+            "parts": [
+                "0.5"
+            ],
+            "children": [
+                {
+                    "separation": "horizontal",
+                    "parts": [
+                        "0.45"
+                    ],
+                    "children": [
+                        {
+                            "type": "empty"
+                        },
+                        {
+                            "type": "image"
+                        }
+                    ]
+                },
+                {
+                    "type": "interactive",
+                    "imageIndex": "0",
+                    "imagePosition": {
+                        "x": "0",
+                        "y": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "separation": "vertical",
+            "parts": [
+                "0.7"
+            ],
+            "children": [
+                {
+                    "separation": "horizontal",
+                    "parts": [
+                        "0.5",
+                        "0.95"
+                    ],
+                    "children": [
+                        {
+                            "separation": "vertical",
+                            "parts": [
+                                "0.5"
+                            ],
+                            "children": [
+                                {
+                                    "type": "imagetext",
+                                    "textAlign": "left",
+                                    "fontSize": "16",
+                                    "lineHeight": "18",
+                                    "text": "UNICEF has helped over <span class='blue'>14 K children</span>"
+                                },
+                                {
+                                    "separation": "horizontal",
+                                    "parts": [
+                                        "0.73"
+                                    ],
+                                    "children": [
+                                        {
+                                            "type": "interactive",
+                                            "imageIndex": "1",
+                                            "imagePosition": {
+                                                "x": "0",
+                                                "y": "1"
+                                            }
+                                        },
+                                        {
+                                            "type": "image"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "interactive",
+                            "imageIndex": "2",
+                            "imagePosition": {
+                                "x": "0",
+                                "y": "0.7"
+                            }
+                        },
+                        {
+                            "type": "empty"
+                        }
+                    ]
+                },
+                {
+                    "separation": "horizontal",
+                    "parts": [
+                        "0.65"
+                    ],
+                    "children": [
+                        {
+                            "type": "image",
+                            "imageIndex": "3"
+                        },
+                        {
+                            "type": "imagetext",
+                            "textAlign": "right",
+                            "fontSize": "16",
+                            "lineHeight": "18",
+                            "text": "who have left <span class='blue'>armed groups.</span>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
